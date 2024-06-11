@@ -1,0 +1,93 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.827);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar .logo img {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: auto;
+     /* Pushes the logo to the left */
+}
+
+.GP img, .EZ img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 285px;
+}
+
+.GP, .EZ {
+    text-align: center;
+}
+
+.MySkills {
+    text-align: center;
+    
+}
+
+.EZ img:hover {
+    transform: scale(1.1);
+}
+
+.GP img:hover {
+    transform: scale(1.1);
+}
+
+.GP img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.EZ img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+@media screen and (min-width:768px) {
+    .GP img, .EZ img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .GP img, .EZ img {
+        width: 50%;
+        height: 75%;
+    }
+}

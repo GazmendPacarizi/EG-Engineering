@@ -1,0 +1,57 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.827);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar .logo img {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: auto;
+     /* Pushes the logo to the left */
+}
+
+.whyChooseMe {
+   /* background-color: rgba(0, 0, 0, 0.820); */
+}
+
+.whyChooseMe {
+    p {
+        color: black;
+    }
+}
+
+
+
+
+
