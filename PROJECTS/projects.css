@@ -85,6 +85,24 @@ nav li:first-child {
     }
 }
 
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.accordion-button:hover {
+    background-color: rgba(0, 110, 255, 0.81);
+    color: white;
+    font-size: 18px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
 @media screen and (min-width: 768px) {
     .hideOnMobile {
         display: block;
